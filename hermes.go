@@ -159,20 +159,14 @@ func setDefaultHermesValues(h *Hermes) error {
 // GenerateHTML generates the email body from data to an HTML Reader
 // This is for modern email clients
 func (h *Hermes) GenerateHTML(email Email) (string, error) {
-	err := setDefaultHermesValues(h)
-	if err != nil {
-		return "", err
-	}
+	
 	return h.generateTemplate(email, h.Theme.HTMLTemplate())
 }
 
 // GeneratePlainText generates the email body from data
 // This is for old email clients
 func (h *Hermes) GeneratePlainText(email Email) (string, error) {
-	err := setDefaultHermesValues(h)
-	if err != nil {
-		return "", err
-	}
+	
 	template, err := h.generateTemplate(email, h.Theme.PlainTextTemplate())
 	if err != nil {
 		return "", err
