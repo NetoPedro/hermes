@@ -139,8 +139,8 @@ func setDefaultHermesValues(h *Hermes) error {
 		Theme:         new(Default),
 		TextDirection: defaultTextDirection,
 		Product: Product{
-			Name:        "Hermes",
-			Copyright:   "Copyright © 2017 Hermes. All rights reserved.",
+			Name:        "Uniquiz",
+			Copyright:   "Copyright © 2017 Uniquiz. All rights reserved.",
 			TroubleText: "If you’re having trouble with the button '{ACTION}', copy and paste the URL below into your web browser.",
 		},
 	}
@@ -159,7 +159,7 @@ func setDefaultHermesValues(h *Hermes) error {
 // GenerateHTML generates the email body from data to an HTML Reader
 // This is for modern email clients
 func (h *Hermes) GenerateHTML(email Email) (string, error) {
-	
+	setDefaultHermesValues(h)
 	return h.generateTemplate(email, h.Theme.HTMLTemplate())
 }
 
