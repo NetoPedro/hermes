@@ -2,7 +2,7 @@ package hermes
 
 import (
 	"bytes"
-	"github.com/Masterminds/sprig"
+	"github.com/NetoPedro/sprig"
 	"github.com/imdario/mergo"
 	"github.com/jaytaylor/html2text"
 	"gopkg.in/russross/blackfriday.v2"
