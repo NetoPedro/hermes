@@ -123,8 +123,8 @@ func setDefaultEmailValues(e *Email) error {
 			Intros:     []string{},
 			Dictionary: []Entry{},
 			Outros:     []string{},
-			Signature:  "Yours truly",
-			Greeting:   "Hi",
+			Signature:  "Com apreço",
+			Greeting:   "Olá",
 		},
 	}
 	// Merge the given email with default one
@@ -142,7 +142,7 @@ func setDefaultHermesValues(h *Hermes) error {
 			Logo: "https://i.imgur.com/HkN2lB4.png",
 			Name:        "Uniquiz",
 			Copyright:   "Copyright © 2017 Uniquiz. All rights reserved.",
-			TroubleText: "If you’re having trouble with the button '{ACTION}', copy and paste the URL below into your web browser.",
+			TroubleText: "Se não conseguires utilizar o botão '{ACTION}', copia e col,a o link no teu browser.",
 		},
 	}
 	// Merge the given hermes engine configuration with default one
