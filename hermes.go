@@ -139,7 +139,7 @@ func setDefaultHermesValues(h *Hermes) error {
 		Theme:         new(Default),
 		TextDirection: defaultTextDirection,
 		Product: Product{
-			Logo: "https://i.imgur.com/HkN2lB4.png",
+			Logo: "https://i.imgur.com/MzFGYVx.png",
 			Name:        "Uniquiz",
 			Copyright:   "Copyright © 2017 Uniquiz. All rights reserved.",
 			TroubleText: "Se não conseguires utilizar o botão '{ACTION}', copia e col,a o link no teu browser.",
