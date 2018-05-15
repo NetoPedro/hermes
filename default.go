@@ -64,7 +64,7 @@ func (dt *Default) HTMLTemplate() string {
       text-shadow: 0 1px 0 white;
     }
     .email-logo {
-      max-height: 50px;
+      max-height: 100px;
     }
     /* Body ------------------------------ */
     .email-body {
@@ -235,7 +235,7 @@ func (dt *Default) HTMLTemplate() string {
     .button {
       display: inline-block;
       width: 200px;
-      background-color: #3869D4;
+      background-color: #113363 ;
       border-radius: 3px;
       color: #ffffff;
       font-size: 15px;
