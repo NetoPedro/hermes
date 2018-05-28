@@ -141,8 +141,8 @@ func setDefaultHermesValues(h *Hermes) error {
 		Product: Product{
 			Logo: "https://i.imgur.com/MzFGYVx.png",
 			Name:        "Uniquiz",
-			Copyright:   "Copyright © 2017 Uniquiz. All rights reserved.",
-			TroubleText: "Se não conseguires utilizar o botão '{ACTION}', copia e col,a o link no teu browser.",
+			Copyright:   "Copyright © 2018 Uniquiz. All rights reserved.",
+			TroubleText: "Se não conseguires utilizar o botão '{ACTION}', copia e cola o link no teu browser.",
 		},
 	}
 	// Merge the given hermes engine configuration with default one
